@@ -1,0 +1,39 @@
+# =========================================
+# BACKEND
+# =========================================
+target/
+build/
+out/
+!src/main/**
+!src/test/**
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+
+# ==========================
+# FRONTEND 
+# ==========================
+node_modules/
+dist/
+.angular/
+.tmp/
+coverage/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# ==========================
+# AMBOS
+# ==========================
+# Arquivos de ambiente (senhas, configs locais)
+.env
